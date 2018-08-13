@@ -53,6 +53,10 @@ def test_spend_cash(wallet):
 def test_type():
     with pytest.raises(TypeError):
         wallet = Wallet("Hello")
+
+def test_transfer_reset(wallet):
+    wallet.transfer_reset()
+    assert wallet.balance == 0
     
 
 

@@ -24,3 +24,5 @@ class Wallet(object):
             raise TypeError('Please provide Integer'.format(amount))
         self.balance += amount
         
+    def transfer_reset(self):
+        self.balance = 0

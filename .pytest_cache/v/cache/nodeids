@@ -1,4 +1,7 @@
 [
+  "test_capitalize.py::test_capital_case", 
+  "test_capitalize.py::test_raises_exception", 
+  "test_capitalize.py::test_already_capital", 
   "test_wallet.py::test_transactions[30-10-20]", 
   "test_wallet.py::test_transactions[20-2-18]", 
   "test_wallet.py::test_transactions_and_exceptions[Hello-10-20]", 
@@ -7,5 +10,6 @@
   "test_wallet.py::test_add_cash", 
   "test_wallet.py::test_spend_cash_insufficient", 
   "test_wallet.py::test_spend_cash", 
-  "test_wallet.py::test_type"
+  "test_wallet.py::test_type", 
+  "test_wallet.py::test_transfer_reset"
 ]
