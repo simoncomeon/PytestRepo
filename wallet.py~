@@ -1,0 +1,20 @@
+
+#wallet.py
+
+
+class InsufficientAmout(Exception):
+    pass
+
+class wallet(object):
+    
+    def __init__(self, initial_amout=0):
+        self.balance = initial_amout
+
+    def spend_cash(self, amount):
+        if self.balance < amount:
+            raise InsufficientAmout('Not enough available to spend{}.'format(amount))
+        self.balance -= amount
+
+    def  add_cash(self, amount):
+        self.amount += amount
+        

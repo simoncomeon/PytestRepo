@@ -1,0 +1,11 @@
+[
+  "test_wallet.py::test_transactions[30-10-20]", 
+  "test_wallet.py::test_transactions[20-2-18]", 
+  "test_wallet.py::test_transactions_and_exceptions[Hello-10-20]", 
+  "test_wallet.py::test_default_init_amount", 
+  "test_wallet.py::test_setting_initial_amount", 
+  "test_wallet.py::test_add_cash", 
+  "test_wallet.py::test_spend_cash_insufficient", 
+  "test_wallet.py::test_spend_cash", 
+  "test_wallet.py::test_type"
+]
