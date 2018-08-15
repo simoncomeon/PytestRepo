@@ -26,3 +26,33 @@ class Wallet(object):
         
     def transfer_reset(self):
         self.balance = 0
+
+    def stock_addition(self, lister):
+        if not all(isinstance(n, int) for n in lister):
+            raise TypeError('Please proivde Integer'.format(lister))
+        self.balance += sum(map(lambda x: x * 2, lister))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+        
